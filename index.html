@@ -8,11 +8,28 @@
 
         <title>Bootstrap</title>
         <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
-        <p class="display-1 text-xxl-center">Meu primeiro projeto em Bootstrap 5</p>
-        <p>Algo mais</p>
+
+
+        <form class="form-signin">
+            <img src="./assets/img/bootstrap_logo.png" alt="" width="72" height="72" />
+            <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
+            <label for="inputEmail" class="sr-only">Endereço de email</label>
+            <input class="form-control" type="email" id="inputEmail" placeholder="Seu email" required autofocus />
+            <label for="inputPassword" class="sr-only">Senha</label>
+            <input class="form-control" type="password" id="inputPassword" placeholder="Senha" required />
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="lembre-me" /> Lembrar de mim
+                </label>
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2022 - Página de Exemplo do módulo de Bootstrap</p>
+        </form>
+
 
 
 
